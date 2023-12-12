@@ -24,7 +24,7 @@ normal_end_time = time.time()
 time.sleep(35)
 
 
-### COMPRESSED BUZZFIZZ EXPERIMENT ###
+### COMPRESSED BUZZFIZZ EXPERIMENT ### This code is repeated to clearly seperate the two experiments and show there's nothing else that could be influencing the runtime.
 
 compre_start_time = time.time()
 
