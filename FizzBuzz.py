@@ -14,7 +14,7 @@ def play_FizzBuzz(play_until, divis_by_three_string, divis_by_five_string):
         prints a game of BuzzFizz up to the desired number, using the specified strings
     '''
 
-    # Loops over every positive integer less than (or equal to) the desired value
+    # Loops over every positive integer less than (or equal to) the specified max value
     for integer in range(1, play_until + 1):
 
         # Computes if integer is a multiple of three and/or five
@@ -50,7 +50,7 @@ for experiment_index in [0,1]:
     # Stops the clock for the current experiment
     runtimes[experiment_index] -= time.time()
 
-    # Adds a pause between the two experiements to mitigate the potential effects of heat
+    # Adds a pause between the two experiments to mitigate the potential effects of heat
     if(not experiment_index): 
         time.sleep(30)
 
